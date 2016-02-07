@@ -1,0 +1,7 @@
+---
+applications:
+- name: pcfdemo
+  memory: 512M 
+  instances: 1
+  host: pcfdemo-yj
+  path: ./target/pcfdemo.war
